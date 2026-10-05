@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/hashids-hashids",
+    "description": "Tyhp type definitions for hashids/hashids 5.0.2.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "5.0.2",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/hashids-hashids-impl": "~5.0.2.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/hashids-hashids-impl"
+        }
+    }
+}
